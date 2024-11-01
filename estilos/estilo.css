@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Orbitron:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,43,1) 100%);
+    height: 100vh;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.faro {
+    width: 340px;
+    display: flex;
+    margin: 30px auto 15px;
+}
+
+.botao {
+    width: 70px;
+    height: 50px;
+    align-items: center;
+}
+
+.btn {
+    margin: 22px auto auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    width: 1000px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn > div {
+    cursor: pointer;
+}

@@ -5,25 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Botão de Volume</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 <body>
     <div class="container">
-        <img class="botao" src="imagem/botaoPNG.jpg">
+        <img class="faro" src="images/faro.png" alt="" srcset="">
     </div>
 
     <div class="btn" id="btn"></div>
-    <audio></audio>
+    <div>
+        <img src="images/botao.png" class="botao" id="botao0" onclick="trocar(this)" alt="botao">
+        <p>Legenda</p>
+    </div>
+</div>
 
-    <script src="main.js"></script>
-    <script>
-        const btnContainer = document.getElementById("btn")
-        const totalButton = 2;
-
-        for (let i = 0; i < totalButton; I++){
-            const buttonDiv = document.createElement('div');
-            buttonDiv.innerHTML= `<img `
-        }
-    </script>
+<audio></audio>
+<script src="js/main.js"></script>
 </body>
 </html>
